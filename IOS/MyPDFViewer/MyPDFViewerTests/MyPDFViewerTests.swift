@@ -1,6 +1,6 @@
 //
-//  PDFReaderTests.swift
-//  PDFReaderTests
+//  MyPDFViewerTests.swift
+//  MyPDFViewerTests
 //
 //  Created by Christopher Ni on 28/04/15.
 //  Copyright (c) 2015 ShapeApp. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class PDFReaderTests: XCTestCase {
+class MyPDFViewerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
