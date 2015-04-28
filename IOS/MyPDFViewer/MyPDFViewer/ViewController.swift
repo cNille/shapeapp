@@ -8,10 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+
+class ViewController: ReaderViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +26,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func didClickOpenPDF(sender: UIButton){
+        let file: NSString = NSBundle.mainBundle().pathForResource("typo_tips", ofType: "pdf")!
+        
+    }
 
 }
 

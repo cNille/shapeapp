@@ -13,6 +13,13 @@
 		E5538A151AF00B3400F3E9EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5538A141AF00B3400F3E9EC /* Images.xcassets */; };
 		E5538A181AF00B3400F3E9EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5538A161AF00B3400F3E9EC /* LaunchScreen.xib */; };
 		E5538A241AF00B3400F3E9EC /* MyPDFViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5538A231AF00B3400F3E9EC /* MyPDFViewerTests.swift */; };
+		E5538A381AF00D0600F3E9EC /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = E5538A371AF00D0600F3E9EC /* Classes */; };
+		E5538A3A1AF00D0F00F3E9EC /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = E5538A391AF00D0F00F3E9EC /* Sources */; };
+		E5538A3F1AF0159400F3E9EC /* FÖRSIDOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E5538A3E1AF0159400F3E9EC /* FÖRSIDOR.pdf */; };
+		E5538A401AF0181A00F3E9EC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5538A331AF00B9D00F3E9EC /* MessageUI.framework */; };
+		E5538A411AF0181C00F3E9EC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5538A311AF00B9300F3E9EC /* ImageIO.framework */; };
+		E5538A421AF0181F00F3E9EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5538A2F1AF00B8B00F3E9EC /* QuartzCore.framework */; };
+		E5538A431AF0183200F3E9EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5538A2D1AF00B5E00F3E9EC /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,14 @@
 		E5538A1D1AF00B3400F3E9EC /* MyPDFViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPDFViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5538A221AF00B3400F3E9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5538A231AF00B3400F3E9EC /* MyPDFViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPDFViewerTests.swift; sourceTree = "<group>"; };
+		E5538A2D1AF00B5E00F3E9EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5538A2F1AF00B8B00F3E9EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5538A311AF00B9300F3E9EC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E5538A331AF00B9D00F3E9EC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E5538A371AF00D0600F3E9EC /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = "../../../../IOS-Libraries/Reader-master/Classes"; sourceTree = "<group>"; };
+		E5538A391AF00D0F00F3E9EC /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sources; path = "../../../../IOS-Libraries/Reader-master/Sources"; sourceTree = "<group>"; };
+		E5538A3B1AF00E7D00F3E9EC /* MyPDFViewer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPDFViewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5538A3E1AF0159400F3E9EC /* FÖRSIDOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "FÖRSIDOR.pdf"; path = "../../../../../ARKAD/wetransfer-e81d0a/FÖRSIDOR.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5538A431AF0183200F3E9EC /* UIKit.framework in Frameworks */,
+				E5538A421AF0181F00F3E9EC /* QuartzCore.framework in Frameworks */,
+				E5538A411AF0181C00F3E9EC /* ImageIO.framework in Frameworks */,
+				E5538A401AF0181A00F3E9EC /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,10 @@
 		E55389FF1AF00B3400F3E9EC = {
 			isa = PBXGroup;
 			children = (
+				E5538A331AF00B9D00F3E9EC /* MessageUI.framework */,
+				E5538A311AF00B9300F3E9EC /* ImageIO.framework */,
+				E5538A2F1AF00B8B00F3E9EC /* QuartzCore.framework */,
+				E5538A2D1AF00B5E00F3E9EC /* UIKit.framework */,
 				E5538A0A1AF00B3400F3E9EC /* MyPDFViewer */,
 				E5538A201AF00B3400F3E9EC /* MyPDFViewerTests */,
 				E5538A091AF00B3400F3E9EC /* Products */,
@@ -77,8 +100,11 @@
 		E5538A0A1AF00B3400F3E9EC /* MyPDFViewer */ = {
 			isa = PBXGroup;
 			children = (
+				E5538A3D1AF0152600F3E9EC /* PDFs */,
+				E5538A361AF00C0F00F3E9EC /* PDFReader */,
 				E5538A0D1AF00B3400F3E9EC /* AppDelegate.swift */,
 				E5538A0F1AF00B3400F3E9EC /* ViewController.swift */,
+				E5538A3B1AF00E7D00F3E9EC /* MyPDFViewer-Bridging-Header.h */,
 				E5538A111AF00B3400F3E9EC /* Main.storyboard */,
 				E5538A141AF00B3400F3E9EC /* Images.xcassets */,
 				E5538A161AF00B3400F3E9EC /* LaunchScreen.xib */,
@@ -110,6 +136,23 @@
 				E5538A221AF00B3400F3E9EC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5538A361AF00C0F00F3E9EC /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				E5538A391AF00D0F00F3E9EC /* Sources */,
+				E5538A371AF00D0600F3E9EC /* Classes */,
+			);
+			name = PDFReader;
+			sourceTree = "<group>";
+		};
+		E5538A3D1AF0152600F3E9EC /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				E5538A3E1AF0159400F3E9EC /* FÖRSIDOR.pdf */,
+			);
+			name = PDFs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5538A131AF00B3400F3E9EC /* Main.storyboard in Resources */,
+				E5538A381AF00D0600F3E9EC /* Classes in Resources */,
 				E5538A181AF00B3400F3E9EC /* LaunchScreen.xib in Resources */,
 				E5538A151AF00B3400F3E9EC /* Images.xcassets in Resources */,
+				E5538A3A1AF00D0F00F3E9EC /* Sources in Resources */,
+				E5538A3F1AF0159400F3E9EC /* FÖRSIDOR.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +391,7 @@
 				INFOPLIST_FILE = MyPDFViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyPDFViewer/MyPDFViewer-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -355,6 +402,7 @@
 				INFOPLIST_FILE = MyPDFViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyPDFViewer/MyPDFViewer-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +459,7 @@
 				E5538A291AF00B3400F3E9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5538A2A1AF00B3400F3E9EC /* Build configuration list for PBXNativeTarget "MyPDFViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +468,7 @@
 				E5538A2C1AF00B3400F3E9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
