@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71715EA6-E7D8-4659-8E92-11D9DFEA13FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyPDFViewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68E7350832F60E643706A04CE27F8947FAB68629</key>
+		<string>https://github.com/cNille/shapeapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOS/MyPDFViewer/MyPDFViewer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68E7350832F60E643706A04CE27F8947FAB68629</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cNille/shapeapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68E7350832F60E643706A04CE27F8947FAB68629</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68E7350832F60E643706A04CE27F8947FAB68629</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shapeapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
