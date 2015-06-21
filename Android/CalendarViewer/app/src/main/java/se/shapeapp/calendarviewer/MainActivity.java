@@ -24,7 +24,10 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView)findViewById(R.id.event);
+        retrieveCalendarEvents(null);
+    }
 
+    public void retrieveCalendarEvents(View v) {
         /* Defines which columns (variables of the event we are interested in retrieving.
          * In this case we retrieve the title, datestart and description
         */
@@ -54,7 +57,6 @@ public class MainActivity extends ActionBarActivity {
                 arguments,
                 order
         );
-
         cursor.moveToFirst();
     }
 

@@ -19,6 +19,13 @@
         android:text="Previous"
         android:onClick="previous_event" />
 
+    <Button
+        android:id="@+id/update_calendar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Update"
+        android:onClick="retrieveCalendarEvents" />
+
     <TextView
         android:text="@string/hello_world"
         android:layout_width="match_parent"
