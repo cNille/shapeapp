@@ -136,16 +136,28 @@
 
 	function my_plugins_admin_actions() {
 		//Adds the sub-menu item to the settings item in the admin menu.
- 		add_options_page("My Widget plugin settings", "My Widget plugin settings", 1, "My Widget plugin settings", "my_plugin_admin");
+ 		add_options_page(
+ 			"My Widget plugin settings", 	// Page title
+ 			"My Widget plugin settings", 	// Menu title
+ 			1, 								// Capability required to be displayed to user
+ 			"My Widget plugin settings", 	// Menu-slug
+ 			"my_plugin_admin" 				// Function to display page.
+ 		);
 
 		//Would add the sub-menu item to the tools item in the admin menu.
  		//add_management_page("My Widget plugin settings", "My Widget plugin settings", 1, "My Widget plugin settings", "my_plugin_admin");
 	}	 
 	add_action('admin_menu', 'my_plugins_admin_actions');
 
-	function oscimp_getproducts($product_cnt=1) {
-	    //Connect to the OSCommerce database
-		$oscommercedb = new wpdb(get_option('oscimp_dbuser'),get_option('oscimp_dbpwd'), get_option('oscimp_dbname'), get_option('oscimp_dbhost'));
+
+	function my_function($product_cnt=1) {
+	    //Connect to the plugins database
+		$pluginDB = new wpdb(
+			get_option('my_dbuser', 'default-value'),
+			get_option('my_dbpwd', 'default-value'), 
+			get_option('my_dbname', 'default-value'), 
+			get_option('my_dbhost', 'default-value')
+		);
 	
 		$retval = '';
 	    for ($i=0; $i<$product_cnt; $i++) {
