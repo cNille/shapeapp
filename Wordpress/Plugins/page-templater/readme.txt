@@ -1,0 +1,1 @@
+(This file is required for uploading the plugin to wordpress)
