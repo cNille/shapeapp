@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // 2. Set content view
-        // Eg: setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         // 3. Initialize UI-elements
 
