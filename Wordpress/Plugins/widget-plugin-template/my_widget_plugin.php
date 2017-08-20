@@ -12,12 +12,17 @@
 
     // Content:
     // ========
+    // 0.5 Protecting page
     // 1.0 Enqueue scripts
     // 2.0 Create Widget
     // 3.0 Register Widget
     // 4.0 Creating the plugins administrators page.
 
+    //============================================================
+    // 0.5 Protecting page
+    //============================================================
 
+    defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
     //============================================================
     // 1.0 Enqueue scripts

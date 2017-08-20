@@ -1,6 +1,8 @@
 package se.shapeapp.calendarviewer;
 
+import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.provider.CalendarContract;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -74,11 +76,20 @@ public class MainActivity extends ActionBarActivity {
      * When next butten is pressed this method moves the event-curser to the previous one.
      * @param v
      */
-    public void previous_event(View v){
-        if(!cursor.isFirst()){
+    public void previous_event(View v) {
+        if (!cursor.isFirst()) {
             cursor.moveToPrevious();
         }
         updateText();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        int a = 2;
+        int b = 1 + a;
+
     }
 
     /**

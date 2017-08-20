@@ -1,4 +1,6 @@
 <?php 
+    defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
     // Check if this is a reload after the Submit-button was pressed or not.
     if($_POST['widget_plugin_hidden'] == 'Y') {
         // Form data sent

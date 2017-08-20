@@ -7,7 +7,7 @@
     Version: 1.0
     Author URI: http://www.shapeapp.se/
     */
-
+    defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
      function shapeapp_register_js() {
 	    if ( ! is_admin() ) {
